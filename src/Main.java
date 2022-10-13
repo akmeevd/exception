@@ -13,6 +13,7 @@ public class Main {
         Car car = new Car("some", "some", 3.0);
         Car car2 = new Car("some", "some", 3.0);
         motorCar.performDiagnostic();
+        motorCar2.performDiagnostic();
         System.out.println(motorCar.isDiagnostic());
         Driver driver = new Driver("paul", true, 2010, Driver.Category.B);
 
